@@ -1,0 +1,420 @@
+@font-face {
+    font-family: "Heebo";
+    src: url("../fonts/Heebo-Regular.ttf");
+}
+
+
+body {
+    font-family: "Heebo";
+    src: url("../fonts/Heebo-Regular.ttf");
+}
+
+/* ------Header------ */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 27px 60px 0px 822px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+/* ------Presentation------ */
+
+.presentation {
+    width: 80%;
+    max-width: 855px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 154px 0 71px 0;
+}
+
+h1 {
+    width: 506px;
+    left: 148px;
+    top: 228px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 41px;
+}
+
+.p-description {
+    width: 497px;
+    line-height: 23px;
+    margin-bottom: 62px;
+}
+
+.download-button {
+    font-weight: 500;
+    line-height: 29px;
+    color: #ffffff;
+    background: #FF6464;
+    border-radius: 2px;
+    padding: 9px 21px;
+}
+
+.img-eduardo-aguirre {
+    height: 243px;
+    margin: 0 0 0 106px;
+    border-radius: 50%;
+}
+
+/* ------Recent Posts------ */
+
+.width {
+    width: 80%;
+    max-width: 855px;
+    margin: 0 auto;
+}
+
+.recent-posts {
+    /* display: flex;
+    justify-content: center; */
+    background: #EDF7FA;
+}
+
+.div-recent-posts-header {
+    display: flex;
+   justify-content: space-between;
+}
+
+.recent {
+    font-size: 22px;
+    line-height: 60px;
+    margin: 7px 0 2px 0;
+}
+
+.view {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 27px 0 22px 0;
+    color: #00a8cc;
+}
+
+.post-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post {
+    width: 418px;
+    /* height: 295px; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    margin: 0 20px 32px 0;
+    /* margin-bottom: 32px; */
+}
+
+.post-title {
+    width: 374px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    padding: 24px 21px 0 23px;
+}
+
+.div-post-details {
+    display: flex;
+    width: 374px;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 17px 21px 11px 23px;
+}
+
+.vertical-line {
+    width: 0px;
+    height: 21px;
+    left: 301px;
+    top: 793px;
+    border: 1px solid;
+    margin: 0 30px;
+}
+
+.description {
+    /* width: 368px; */
+    font-size: 16px;
+    line-height: 23px;
+    padding: 0 21px 35px 23px;
+}
+
+/* ------Featured works------ */
+
+.projects-wrap {
+    /* padding: 0 146px 0 146px; */
+}
+
+.project {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.img-projects {
+    width: 246px;
+    border-radius: 6px;
+}
+
+.div-work {
+    margin: 0 148px 0 18px;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.div-work-details {
+    display: flex;
+    justify-content: space-between;
+    /* width: 250px; */
+    margin-bottom: 23px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    background: #142850;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+
+.p-dashboard {
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.horizontal-line {
+    width: 858px;
+    height: 0px;
+    border: 1px solid #e0e0e0;
+    color: #e0e0e0;
+    margin: 15px 0 31px 0;
+}
+
+.p-descriptioin-work {
+    width: 594px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00a8cc;
+    ;
+}
+
+/* ------Footer------ */
+
+.footer-wrap {
+    width: 80%;
+    max-width: 855px;
+    margin: 0 auto;
+    /* padding: 0 146px 0 146px; */
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 32px;
+  }
+
+  .article-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons {
+      display: flex;
+      justify-content: space-around;
+      width: 232px;
+      padding-bottom: 100px;
+  }
+
+  .mobile-content {
+      display: none;
+  }
+
+  /* -----media----- */
+
+  @media only screen and (max-width: 414px){
+      .desktop-content {
+          display: none;
+      }
+
+      .mobile-content {
+          display: flex;
+          height: 100vh;
+          align-items: center;
+          justify-content: center;
+          background-color: aliceblue;
+      }
+  }
+
+  @media only screen and (min-width: 415px) and (max-width: 768px){
+    header {
+        display: none;
+    }
+
+    .presentation {
+        max-width: 768px;
+        flex-direction: column-reverse;
+    }
+
+    h1 {
+        max-width: 415px;
+        font-weight: bold;
+        font-size: 32px;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: -2px;
+    }
+
+    .p-description {
+        max-width: 415px;
+        text-align: center;
+    }
+
+    .download-button {
+        max-width: 415px;
+    }
+
+    .img-eduardo-aguirre {
+        width: 243px;
+        height: 243px;
+        margin-bottom: 34px;
+    }
+
+    /* ------Recent Post------ */
+
+    .width {
+        width: 80%;
+        max-width: 415px;
+    }
+
+    .recent-posts {
+
+    }
+    
+    .div-recent-posts-header {
+
+    }
+
+    .recent {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .view {
+
+    }
+
+    .post-wrap {
+        flex-wrap: wrap;
+    }
+
+    .post {
+        max-width: 415px;
+    }
+
+    .post-title {
+       max-width: 415px;
+    }
+
+    .div-post-details {
+        max-width: 415px;
+    }
+
+    .vertical-line {
+        max-width: 415px;
+    }
+
+    .description {
+
+    }
+
+    /* ------Featured Works------ */
+
+    .projects-wrap {
+
+    }
+
+    .project {
+        flex-wrap: wrap;
+    }
+    .img-projects {
+        max-width: 415px;
+        margin-bottom: 17px;
+    }
+
+    .div-work {
+        margin: 0;
+    }
+
+    .project-title {
+        font-weight: bold;
+        font-size: 24px;
+        display: flex;
+        /* width: 244px; */
+        margin: 0 0 16px 0;
+    }
+
+    .div-work-details {
+
+    }
+
+    .date {
+
+    }
+
+    .p-dashboard {
+
+    }
+
+    .horizontal-line {
+        max-width: 415px;
+    }
+
+    .p-descriptioin-work {
+        max-width: 415px;    
+    }
+
+    /* ------footer------ */
+
+    .footer-wrap {
+        max-width: 415px;
+    }
+
+    .contact {
+
+    }
+
+    .article-icons {
+
+    }
+
+    .icons {
+        max-width: 415px;
+    }
+
+    .mobile-content {
+
+    }
+
+
+}
