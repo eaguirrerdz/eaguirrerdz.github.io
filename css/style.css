@@ -54,9 +54,15 @@ h1 {
     font-weight: 500;
     line-height: 29px;
     color: #ffffff;
-    background: #FF6464;
+    background: rgb(145, 144, 144);
     border-radius: 2px;
     padding: 9px 21px;
+}
+
+.download-button:hover {
+    background-color: #ff6454;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .img-eduardo-aguirre {
@@ -91,6 +97,7 @@ h1 {
 }
 
 .view {
+    text-decoration: underline;
     font-size: 16px;
     line-height: 23px;
     margin: 27px 0 22px 0;
@@ -156,7 +163,7 @@ h1 {
 }
 
 .img-projects {
-    width: 246px;
+    min-width: 246px;
     border-radius: 6px;
 }
 
@@ -295,8 +302,9 @@ a:hover {
 
     .img-eduardo-aguirre {
         width: 243px;
-        height: 243px;
-        margin-bottom: 34px;
+        /* height: 243px; */
+        margin: 83px 97px 34px 86px;
+        /* margin-bottom: 34px; */
     }
 
     /* ------Recent Post------ */
@@ -307,6 +315,7 @@ a:hover {
     }
 
     .recent-posts {
+        max-width: 415px;
 
     }
     
@@ -329,7 +338,7 @@ a:hover {
     }
 
     .post {
-        max-width: 415px;
+        max-width: 350px;
     }
 
     .post-title {
@@ -356,9 +365,10 @@ a:hover {
 
     .project {
         flex-wrap: wrap;
+        justify-content: center;
     }
     .img-projects {
-        max-width: 415px;
+        max-width: 344px;
         margin-bottom: 17px;
     }
 

@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Heebo";
+    src: url("../fonts/Heebo-Regular.ttf");
+}
+
+
+html {
+    font-family: "Heebo";
+    src: url("../fonts/Heebo-Regular.ttf");
+}
+
+/* ------Header------ */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 27px 60px 0px 822px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+/* ------Presentation------ */
+
+.presentation {
+    width: 80%;
+    max-width: 855px;
+    margin: 0 auto;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    max-width: 480px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 34px;
+    width: 506px;
+    padding-top: 78px;
+    margin-bottom: 32px;
+    line-height: 50px;
+}
+
+.div-work-details {
+    display: flex;
+    justify-content: space-between;
+    width: 395px;
+    margin-bottom: 30px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    background: #FF7C7C;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+
+.p-dashboard {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.p-descriptioin-work {
+    width: 480px;
+    margin-bottom: 46px;
+}
+
+.img-projects {
+    width: 40%;
+    height: 40%;
+    align-self:flex-end;
+    margin-bottom: 54px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 32px;
+
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 13px;
+}
+
+.p-header2 {
+    margin-bottom: 30px;
+}
+
+.mobile-content {
+    display: none;
+}
+
+/* ------Footer------ */
+
+.footer-wrap {
+    width: 80%;
+    max-width: 855px;
+    margin: 0 auto;
+    /* padding: 0 146px 0 146px; */
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 32px;
+  }
+
+  .article-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons {
+      display: flex;
+      justify-content: space-around;
+      width: 232px;
+      padding-bottom: 100px;
+  }
+
+  /* ------media------- */
+
+@media only screen and (max-width: 414px){
+    .desktop-content {
+      display: none;
+    }
+
+    .mobile-content {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px){
+    nav {
+        display: none;
+    }
+
+    .first {
+        padding: 82px 18px 0 18px;
+    }
+
+    h1 {
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .div-work-details {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .date {
+        margin-right: 18px;
+    }
+
+    .p-descriptioin-work {
+        width: 100%;
+    }
+
+    .img-projects {
+        width: 100%;
+    }
+
+
+}
